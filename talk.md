@@ -12,7 +12,8 @@ style: |
       color: #fca311
     }
     section h2 {
-      color: #d90368
+      color: #d90368;
+      font-size: 1.1em;
     }
     section h6 {
       color: #aaa
@@ -80,4 +81,40 @@ Let's assume the probability to snow in 3 different brazilian cities: :snowflake
 
 # Entropy
 
-Amount of disorder in a system.
+- Amount of disorder in a system.
+
+- As things grow, the entropy grows together.
+
+- More information available = more disorder.
+
+---
+
+# Entropy and chaos
+
+- Entropy is a measure of chaos. The more entropy, the more chaotic the system.
+
+## Stephen Hawking
+
+> "The increase of disorder or entropy is what distinguishes the past from the future, giving a direction to time."
+
+![bg right:50% 70%](https://i.guim.co.uk/img/media/b36ce1d3e4122c3d9ea61aae97435427a2be6db7/0_314_3356_2014/master/3356.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=60ab4090e8670420d755b58c39ab63b4)
+
+---
+
+# Entropy and Information
+
+- Entropy is an important concept in information theory. Probably the most important concept.
+
+## Entropy formula
+
+$$H(X) = -\sum_{i=1}^{n}p(x_i)log_2(p(x_i))$$
+
+---
+
+# WTF is this formula² ? Let's dissect it.
+
+- $H(X)$ is the entropy of the random variable $X$.
+- $p(x_i)$ is the probability of the event $x_i$.
+- $log_2$ is the logarithm base 2.
+
+To discover the entropy (H) of the random variable $X$, we need to know the probability of each event $x_i$ and apply it to the formula.
