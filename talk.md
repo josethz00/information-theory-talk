@@ -101,6 +101,16 @@ Let's assume the probability to snow in 3 different brazilian cities: :snowflake
 
 ---
 
+# You can't run away from entropy, deal with it
+
+- Entropy is a natural law of the universe. It is a measure of disorder.
+
+- Do your fast-growing company is more chaotic now than it was when you started? Yes, it is.
+- Why? Because it is growing.
+- What is the solution? Try to keep the chaos under control as eliminating it is impossible.
+
+---
+
 # Entropy and Information
 
 - Entropy is an important concept in information theory. Probably the most important concept.
@@ -118,3 +128,34 @@ $$H(X) = -\sum_{i=1}^{n}p(x_i)log_2(p(x_i))$$
 - $log_2$ is the logarithm base 2.
 
 To discover the entropy (H) of the random variable $X$, we need to know the probability of each event $x_i$ and apply it to the formula.
+
+---
+
+# Example
+
+---
+
+# Information Theory Applications
+
+- Cryptography
+- Machine Learning
+- Project Management
+- Data Compression
+
+---
+
+# Cryptography
+
+---
+
+# Machine Learning
+
+---
+
+# Project Management
+
+---
+
+# Data Compression
+
+---
