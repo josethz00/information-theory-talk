@@ -133,6 +133,40 @@ To discover the entropy (H) of the random variable $X$, we need to know the prob
 
 # Example
 
+You are a data scientist building a decision tree to predict which ad you should show to an user based on its profile. You have 3 possible ads to show to the user:
+
+<br />
+
+| Ad | Probability |
+|:----:|:-----------:|
+|  Ad 1 | 0.6 |
+|  Ad 2 | 0.3 |
+| Ad 3 | 0.1 |
+
+---
+
+You want to reduce the entropy of the system, so you need to know how much entropy you have now.
+
+<br />
+
+$$H(X) = -0.6log_2(0.6) - 0.3log_2(0.3) - 0.1log_2(0.1)$$
+$$H(X) = 0.5219 + 0.1542 + 0.4685$$
+$$H(X) = 1.1446$$
+
+---
+
+## How to interpret this result?
+
+- The entropy of the system is 1.1446 bits.
+
+### How to reduce the entropy?
+
+- You can reduce the entropy by showing the ad with the highest probability.
+
+## But why is it bad to show the ad with the lowest probability?
+
+- Because it is the least surprising ad. Probably the user has already seen it many times.
+
 ---
 
 # Information Theory Applications
@@ -146,16 +180,38 @@ To discover the entropy (H) of the random variable $X$, we need to know the prob
 
 # Cryptography
 
+![bg right:50% 70%](./encryption.svg)
+
 ---
 
 # Machine Learning
+
+![bg right:50% 70%](./ai.svg)
 
 ---
 
 # Project Management
 
+![bg right:50% 70%](./project-management.svg)
+
 ---
 
 # Data Compression
 
+![bg right:50% 70%](./data-compression.svg)
+
 ---
+
+# Thank you!
+
+<style>
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+</style>
+
+Thank you for your attention. I hope you enjoyed this talk. If you have any questions, please feel free to contact me.
+
+  <a href="https://www.linkedin.com/in/jose-thomaz/" target="_blank" style="margin-right: 20px;"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>@jose-thomaz</a>
+
+  <a href="https://www.twitter.com/josethz00" target="_blank" style="margin-right: 20px;"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i>@josethz00</a>
+
+  <a href="https://github.com/josethz00" target="_blank" style="margin-right: 20px;"><i class="fa fa-github fa-3x" aria-hidden="true"></i>@josethz00</a>
