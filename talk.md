@@ -214,9 +214,10 @@ $$H(X) = 1.1446$$
 
 ---
 
-### Project Management and Information Theory
+## Project Management and Information Theory
 
-- 
+- Risk management.
+- Minimum Description Length.
 
 ---
 
