@@ -205,6 +205,7 @@ $$H(X) = 1.1446$$
 - Information gain.
 - Information bottleneck.
 - Mutual information.
+- Decision trees.
 
 ---
 
