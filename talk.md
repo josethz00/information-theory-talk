@@ -200,9 +200,23 @@ $$H(X) = 1.1446$$
 
 ---
 
+## Machine Learning and Information Theory
+
+- Information gain.
+- Information bottleneck.
+- Mutual information.
+
+---
+
 # Project Management
 
 ![bg right:50% 70%](./project-management.svg)
+
+---
+
+### Project Management and Information Theory
+
+- 
 
 ---
 
@@ -210,6 +224,11 @@ $$H(X) = 1.1446$$
 
 ![bg right:50% 70%](./data-compression.svg)
 
+---
+
+## Data Compression and Information Theory
+
+-
 ---
 
 # Thank you!
