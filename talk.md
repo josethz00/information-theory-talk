@@ -184,6 +184,16 @@ $$H(X) = 1.1446$$
 
 ---
 
+## Cryptography and Information Theory
+
+- Encryption is the process of encoding information.
+- Decryption is the process of decoding information.
+- The more information you have, the more difficult it is to decode the information.
+- Good encryption algorithms should have a high entropy.
+- UUIDs usually have around 122 bits of entropy.
+
+---
+
 # Machine Learning
 
 ![bg right:50% 70%](./ai.svg)
